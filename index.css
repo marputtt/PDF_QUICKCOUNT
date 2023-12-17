@@ -477,7 +477,7 @@
 }
 .home-details-container {
   width: 100%;
-  height: 435px;
+  height: 696px;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   transition: 0.3s;
@@ -535,7 +535,7 @@
 .home-features-container {
   flex: 0 0 auto;
   width: 100%;
-  height: 699px;
+  height: 1023px;
   display: flex;
   transition: 0.3s;
   align-items: center;
