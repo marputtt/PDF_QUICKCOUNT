@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator - Valuable Talkative Jackal</title>
+    <meta
+      property="og:title"
+      content="Calculator - Valuable Talkative Jackal"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+   
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./calculator.css" rel="stylesheet" />
+
+      <div class="calculator-container">
+        <div class="calculator-header">
+          <div
+            class="navbar-interactive-container navbar-interactive-root-class-name3"
+          >
+            <header
+              data-thq="thq-navbar"
+              class="navbar-interactive-navbar-interactive"
+            >
+              <a href="index.html" class="navbar-interactive-navlink">
+                <div class="navbar-interactive-container1">
+                  <img
+                    alt="image"
+                    src="public/external/garuda_pancasila%2C_coat_of_arms_of_indonesia.svg-200w.png"
+                    class="navbar-interactive-image"
+                  />
+                  <span class="navbar-interactive-logo"><span>PDF</span></span>
+                </div>
+              </a>
+              <div
+                data-thq="thq-navbar-nav"
+                class="navbar-interactive-desktop-menu"
+              >
+                <nav class="navbar-interactive-links">
+                  <a href="about.html" class="navbar-interactive-nav1 button">
+                    <span>About</span>
+                  </a>
+                  <a href="#Features" class="navbar-interactive-nav2 button">
+                    <span>Features</span>
+                  </a>
+                  <a href="#parties" class="navbar-interactive-nav3 button">
+                    <span>Parties</span>
+                  </a>
+                  <a
+                    href="calculator.html"
+                    class="navbar-interactive-nav4 button"
+                  >
+                    <span>Calculator</span>
+                  </a>
+                </nav>
+              </div>
+              <div
+                data-thq="thq-burger-menu"
+                class="navbar-interactive-burger-menu"
+              >
+                <svg viewBox="0 0 1024 1024" class="navbar-interactive-icon">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                data-thq="thq-mobile-menu"
+                class="navbar-interactive-mobile-menu"
+              >
+                <div class="navbar-interactive-nav">
+                  <div class="navbar-interactive-top">
+                    <span class="navbar-interactive-logo1">
+                      <span>QUICKCOUNT</span>
+                    </span>
+                    <div
+                      data-thq="thq-close-menu"
+                      class="navbar-interactive-close-menu"
+                    >
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        class="navbar-interactive-icon2"
+                      >
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="navbar-interactive-links1">
+                    <a href="about.html" class="navbar-interactive-nav11">
+                      <span>About</span>
+                    </a>
+                    <span class="navbar-interactive-nav21">
+                      <span>Features</span>
+                    </span>
+                    <span class="navbar-interactive-nav31">
+                      <span>Parties</span>
+                    </span>
+                    <span class="navbar-interactive-nav41">
+                      <span>Calculator</span>
+                    </span>
+                  </nav>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+        <div class="calculator-background">
+          <div class="calculator-container1">
+            <div class="calculator-calculator-card">
+              <div class="calculator-calculator-title">
+                <h1 class="calculator-calcultor-heading">
+                  QUICK COUNT CALCULATOR
+                </h1>
+              </div>
+              <div class="calculator-calculator-container">
+                <div class="calculator-container2">
+                  <div class="calculator-container-numberofseats">
+                    <label for="numSeats" class="calculator-text">
+                      Number of Seats
+                    </label>
+                    <input
+                      type="number"
+                      id="numSeats"
+                      min="1"
+                      required=""
+                      placeholder="Number of Seats"
+                      class="calculator-textinput input"
+                    />
+                  </div>
+                  <div class="calculator-party">
+                    <h1 class="calculator-text01">
+                      <span>Seat Allocation</span>
+                      <br />
+                      <br />
+                    </h1>
+                    <div id="partyInputs" class="calculator-container3">
+                      <div id="party" class="calculator-party1 party">
+                        <label for="partyName" class="calculator-text05">
+                          Party Name :
+                        </label>
+                        <input
+                          type="text"
+                          id="partyName"
+                          required=""
+                          placeholder="Input The Party Name"
+                          class="calculator-textinput1"
+                        />
+                        <label for="voteCount">Vote:&nbsp;</label>
+                        <input
+                          type="number"
+                          id="voteCount"
+                          min="0"
+                          required=""
+                          placeholder="Input The Vote"
+                          class="calculator-textinput2"
+                        />
+                      </div>
+                    </div>
+                    <div class="calculator-container4">
+                      <button id="addPartyButton" type="button" class="calculator-button button">
+                        Add Party
+                    </button>
+                    <button id="calculateSeatsButton" type="button" class="calculator-button1 button">
+                        <span>
+                            <span>Calculate Seats</span>
+                            <br />
+                        </span>
+                    </button>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="calculator-container5">
+                  <div id="result" class="calculator-container6">
+                    <h1 class="calculator-text10">
+                      <span>Seat Allocation Results</span>
+                      <br />
+                    </h1>
+                    <ul id="seatResults" class="calculator-ul list"></ul>
+                  </div>
+                  <div class="calculator-graph">
+                    <canvas id="seatChart" width="100%" height="400" style="margin-left: 50px;"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js"></script>
+  
+  
+  </body>
+</html>
