@@ -926,13 +926,13 @@
 }
 .calculator-container5 {
   top: 490px;
-  width: 538px;
+  width: 402px;
   height: 305px;
   display: flex;
   position: absolute;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .calculator-container6 {
   width: 379px;
