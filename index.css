@@ -276,8 +276,9 @@
     width: 396px;
     height: 271px;
     position: relative;
-    align-self: center;
-  }
+    align-self: auto;
+
+}
   .navbar-interactive-nav11 {
     color: var(--dl-color-gray-black);
     width: 100%;
