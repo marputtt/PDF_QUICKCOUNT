@@ -28,6 +28,9 @@
   justify-content: space-between;
   text-decoration: none;
 }
+.navbar-interactive-container1:hover {
+  color: #3d6e70ff;
+}
 .navbar-interactive-image {
   width: 57px;
   height: auto;
